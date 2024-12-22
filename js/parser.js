@@ -250,9 +250,9 @@ $(function(){
     for (var i = 0; i < issues.length; i++) {
       var issue = issues[i]
       var labels = []
-      for (var j = 0; j < issue.labels.length; j++) {
-        labels.push(issue.labels[j].name)
-      }
+      // for (var j = 0; j < issue.labels.length; j++) {
+      //   labels.push(issue.labels[j].name)
+      // }
       issues_obj[issue.number] = {
           "url": issue.url
         , "title": issue.title
